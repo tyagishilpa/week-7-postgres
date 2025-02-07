@@ -13,7 +13,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //connect to db -aiven db
 const pg_1 = require("pg");
 const client = new pg_1.Client({
-    connectionString: "postgresql://neondb_owner:UbS3uApW4Olh@ep-bitter-cloud-a5v9hzb2.us-east-2.aws.neon.tech/neondb?sslmode=require"
+    connectionString: "postgresql://neondb_owner:my_password@ep-bitter-cloud-a5v9hzb2.us-east-2.aws.neon.tech/neondb?sslmode=require"
 });
 //----creating TABLE user-----
 function createAdminTable() {
